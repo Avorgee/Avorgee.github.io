@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #eff2f7;
+}
+
+h1 {
+font-family: georgia;
+text-align: center;
+margin-top: 20px;
+}
+
+img {
+	width:150;
+	height:225;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.3);
+}
